@@ -31,7 +31,7 @@ describe App do
   describe 'POST /' do
     it "displays the puppy" do
       visit '/new'
-  
+
       fill_in(:name, :with => "Butch")
       fill_in(:breed, :with => "Mastiff")
       fill_in(:age, :with => "6 months")
